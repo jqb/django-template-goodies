@@ -5,13 +5,13 @@ import template_goodies
 
 
 setup(
-    name='template_goodies',
+    name='django_template_goodies',
     version=template_goodies.VERSION,
     description='A set of django template tools.',
     author='Jakub Janoszek',
     author_email='kuba.janoszek@gmail.com',
     include_package_data=True,
-    url='https://github.com/jqb/template_goodies/tree/ver-%s' % template_goodies.VERSION,
+    url='https://github.com/jqb/django-template-goodies/',
     packages=find_packages(),
     install_requires=[
         'django-classy-tags==0.6.1',
