@@ -2,3 +2,6 @@
 *.pyc
 *~
 .htmlcov/*
+build/*
+dist/*
+template_goodies.egg-info/*
