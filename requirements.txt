@@ -1,0 +1,2 @@
+django
+django-classy-tags==0.6.1
