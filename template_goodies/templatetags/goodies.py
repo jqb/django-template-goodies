@@ -33,7 +33,7 @@ class Block(object):
 
 class RenderWith(Tag):
     options = Options(
-        Argument('template', resolve=False),
+        Argument('template', resolve=True),
         MultiKeywordArgument('kwargs', required=False, resolve=True),
         blocks=[
             BlockDefinition('nodelist', 'end')
