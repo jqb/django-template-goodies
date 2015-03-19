@@ -4,7 +4,6 @@ from cStringIO import StringIO
 
 from django import template
 from django.template.loader import render_to_string
-from django.utils.safestring import mark_safe
 
 from classytags.core import Tag, Options
 from classytags.arguments import (
@@ -26,7 +25,7 @@ class Block(object):
         buf = StringIO()
         for n in self.nodes:
             buf.write(n.render(self._context))
-        return mark_safe(buf.getvalue())
+        return buf.getvalue()
 
     __str__ = __repr__ = __unicode__
 
