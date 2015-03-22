@@ -1,3 +1,8 @@
 * ver 0.1
 
 	"render_with" and "dict" template tags added
+
+
+* ver 0.1.5
+
+	"def_block" and "use_block" tags added
